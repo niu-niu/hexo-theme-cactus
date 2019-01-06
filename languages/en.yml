@@ -33,7 +33,7 @@ post:
 
 search:
   search: Search...
-  no_results: No results found.
+  no_results: That's all I can find.
 
 tag_cloud:
   zero: No tags
