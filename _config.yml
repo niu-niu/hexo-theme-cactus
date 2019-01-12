@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,9 +17,9 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  search: /search/
   tag: /tags/
   categories: /categories/
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -29,7 +29,7 @@ nav:
 social_links:
   github: https://github.com/niu-niu
   twitter: https://twitter.com/RENPINGKEVIN?lang=en
-  mail: ren.ping@hotmail.com
+  mail: mailto:ren.ping@hotmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -41,9 +41,9 @@ tags_overview: true
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
+  show_all_posts: true
   post_count: 5
-  sort_updated: false
+  sort_updated: true
 
 # Customize the archive view.
 # Options:
@@ -87,13 +87,13 @@ logo:
 favicon:
   desktop:
     url: /images/favicon.ico
-    gravatar: false
+    gravatar: true
   android:
     url: /images/favicon-192x192.png
-    gravatar: false
+    gravatar: ture
   apple:
     url: /images/apple-touch-icon.png
-    gravatar: false
+    gravatar: true
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
@@ -113,7 +113,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: enable
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
@@ -145,4 +145,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: ren.ping@hotmail.com
+  github: https://github.com/niu-niu
